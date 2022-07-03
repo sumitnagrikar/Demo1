@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4294" started-at="2022-06-26T05:23:16Z" finished-at="2022-06-26T05:23:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4294" started-at="2022-06-26T05:23:16Z" finished-at="2022-06-26T05:23:20Z">
+      <class name="dataProvider.DPTest">
+        <test-method status="PASS" signature="openDriver()[pri:0, instance:dataProvider.DPTest@4c70fda8]" name="openDriver" is-config="true" duration-ms="16816" started-at="2022-06-26T05:22:59Z" finished-at="2022-06-26T05:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDriver -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataProvider.DPTest@4c70fda8]" name="logintest" duration-ms="2233" started-at="2022-06-26T05:23:16Z" data-provider="logindata" finished-at="2022-06-26T05:23:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataProvider.DPTest@4c70fda8]" name="logintest" duration-ms="594" started-at="2022-06-26T05:23:18Z" data-provider="logindata" finished-at="2022-06-26T05:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sumit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[154545]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataProvider.DPTest@4c70fda8]" name="logintest" duration-ms="779" started-at="2022-06-26T05:23:19Z" data-provider="logindata" finished-at="2022-06-26T05:23:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:dataProvider.DPTest@4c70fda8]" name="logintest" duration-ms="608" started-at="2022-06-26T05:23:19Z" data-provider="logindata" finished-at="2022-06-26T05:23:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[254487]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please enter password 123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- dataProvider.DPTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
